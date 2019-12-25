@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="iago_alvaro.graxono">
+    package="grax_o_no_team.graxono">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -15,7 +15,7 @@
 
 
 
-        <activity android:name=".MainActivity">
+        <activity android:name="grax_o_no_team.graxono.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,28 +23,28 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".jugar">
+        <activity android:name="grax_o_no_team.graxono.Play">
 
         </activity>
 
-        <activity android:name=".creditos">
+        <activity android:name="grax_o_no_team.graxono.Credits">
 
         </activity>
 
 
-        <activity android:name=".respuesta">
+        <activity android:name="grax_o_no_team.graxono.Answer">
 
         </activity>
 
-        <activity android:name=".historial">
+        <activity android:name="grax_o_no_team.graxono.History">
 
         </activity>
 
-        <activity android:name=".anadir_video">
+        <activity android:name="grax_o_no_team.graxono.AddVideo">
 
         </activity>
 
-        <activity android:name=".usuarios">
+        <activity android:name="grax_o_no_team.graxono.Users">
 
         </activity>
     </application>

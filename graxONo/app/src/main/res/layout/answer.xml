@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/titleVideoAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:text="@string/space" />
+
+
+    <VideoView
+        android:id="@+id/videoViewAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.1" />
+
+
+    <TextView
+        android:id="@+id/textProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/space" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+
+
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:indeterminate="false"
+
+        android:progress="40"
+        android:progressTint="#01DF01"
+        android:secondaryProgress="100"
+        android:secondaryProgressTint="#ff0000"
+        android:progressTintMode="src_over"
+        android:secondaryProgressTintMode="src_over"
+         />
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="1">
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/MENU" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/NEXT" />
+</LinearLayout>
+
+</LinearLayout>

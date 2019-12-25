@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "iago_alvaro.graxono"
+        applicationId "grax_o_no_team.graxono"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 1

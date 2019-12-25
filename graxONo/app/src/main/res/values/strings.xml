@@ -1,105 +1,65 @@
 <resources>
     <string name="app_name">graxONo</string>
     <string name="URL">URL: </string>
-    <string name="titulo">Titulo: </string>
+    <string name="title">Title: </string>
     <string name="MENU">MENU</string>
-    <string name="anadir">AÑADIR</string>
-    <string name="TITULO">TITULO</string>
-    <string name="Votos_positivos">Votos positivos: </string>
-    <string name="Votos_totales">Votos totales: </string>
-    <string name="BUSCAR">BUSCAR</string>
-    <string name="barraDiagonal"> / </string>
-    <string name="espacio"> </string>
-    <string name="Gracioso"> GRACIOSO </string>
-    <string name="No_Gracioso"> NO GRACIOSO </string>
-    <string name="SIGUIENTE"> SIGUIENTE </string>
-    <string name="Nombre"> Nombre: </string>
-    <string name="Contrasena"> Contraseña:  </string>
-    <string name="REGISTRAR"> REGISTRAR </string>
-    <string name="ACCEDER"> ACCEDER </string>
-    <string name="vacio"> vacio </string>
-    <string name="ERROR_Usuario"> ERROR, Usuario No Reconocido. </string>
-    <string name="ERROR_Contrasena_Incorrecta">ERROR: Contraseña Incorrecta</string>
-    <string name="ERROR_Contrasena_y_usuario_Necesarias"> ERROR: Contraseña y usuarios Necesarios </string>
-    <string name="ERROR_Nombre">ERROR: Nombre Incorrecto</string>
-    <string name="ERROR_Usuario_existente"> ERROR: Usuario Existente </string>
-    <string name="Acceso_Correcto">Acceso correcto:\nUsuario Actual: </string>
-    <string name="le_gusto"> % le gusto</string>
-    <string name="ERROR_Video_Existente"> ERROR: Video Existente</string>
-    <string name="ERROR_Faltan_Campos"> ERROR: Faltan campos</string>
+    <string name="add">ADD</string>
+    <string name="TITLE">TITLE</string>
+    <string name="Positive_votes">Positive votes: </string>
+    <string name="Total_votes">Total votes: </string>
+    <string name="SEARCH">SEARCH</string>
+    <string name="slash"> / </string>
+    <string name="space"> </string>
+    <string name="Funny"> FUNNY </string>
+    <string name="Not_Funny"> NO FUNNY </string>
+    <string name="NEXT"> NEXT </string>
+    <string name="Name"> Name: </string>
+    <string name="Password"> Password:  </string>
+    <string name="REGISTER"> REGISTER </string>
+    <string name="ACCES"> ACCES </string>
+    <string name="empty"> empty </string>
+    <string name="ERROR_User"> ERROR: Unrecognised user. </string>
+    <string name="ERROR_Incorrect_Password">ERROR: Incorrect password. </string>
+    <string name="ERROR_Pass_And_User_Require"> ERROR: User and Password required. </string>
+    <string name="ERROR_Name"> ERROR: Incorrect Name. </string>
+    <string name="ERROR_Repeated_User"> ERROR: Repeated User. </string>
+    <string name="Correct_Acces"> Correct Access:\nActual User: </string>
+    <string name="liked"> % liked</string>
+    <string name="ERROR_Repeated_Video"> ERROR: Repeated video. </string>
+    <string name="ERROR_Missing_Fields"> ERROR: Missing fields. </string>
 
-    <string name="no_le_gusto"> % no le gusto </string>
+    <string name="not_liked"> % no le gusto </string>
 
-    <string name="creditos">
+    <string name="credits">
         <![CDATA[
             <h1>GraxONo</h1>
 
-            <h2>Aplicacion creada para una práctica en la URJC por:</h2>
+            <p>This app was created as part of an URJC course.</p>
+
+            <p>Please visit our <a href=\"https://github.com/iagoCL/graxONo\">github</a>.</p>
+
+            <h2>App created by:</h2>
             <ul>
                 <li>Calvo Lista, Iago</li>
                 <li>Navas Castillo, Álvaro</li>
             </ul>
 
-            <h2>Diseño Gráfico:</h2>
+            <h2>Graphic Design:</h2>
             <ul>
                 <li>Navas Castillo, Álvaro</li>
                 <li>Calvo Lista, Iago</li>
             </ul>
 
-            <h2>Programacion:</h2>
+            <h2>Development:</h2>
             <ul>
                 <li>Calvo Lista, Iago</li>
                 <li>Navas Castillo, Álvaro</li>
             </ul>
 
-            <p>Todos los videos pertenecen a sus respectivos artistas.</p>
-
-            <h3>funnycomedy.ly</h3>
+            <h2>Videos:</h2>
             <ul>
-                <li>Aprendiendo con la moto</li>
-                <li>Badum Tss</li>
-                <li>El peligro del minigolf</li>
-                <li>Futuros nadadores</li>
-                <li>Golf deporte de riesgo</li>
-                <li>Que ricas las natillas</li>
+                <li>All videos have been created by <a href="https://www.pexels.com/@pixabay">Pixabay</a> and have been downloaded from pexels.com under license <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a>. </li>
             </ul>
-
-            <h3>funnyhoodvidz</h3>
-            <ul>
-                <li>Bailando con patines</li>
-                <li>Cinturón negro</li>
-                <li>Corre por tu vida</li>
-                <li>El doggo que habla</li>
-                <li>El tonto y el aun mas tonto</li>
-                <li>Fallando al ser sexy</li>
-                <li>La reacción del perro</li>
-                <li>Michael Jackson</li>
-                <li>Nadie se mete con el peque</li>
-                <li>No se puede tener más mala suerte</li>
-                <li>Perro enseñando a saltar a un bebe</li>
-                <li>Profesional del salto de trampolín</li>
-                <li>Puro talento con la flauta</li>
-                <li>Raqueta eléctrica</li>
-                <li>Toma los loretes</li>
-                <li>Vaya ritmo tiene el perro</li>
-                <li>We wish you a Merry Christmas</li>
-            </ul>
-
-            <h3>xurxocarreno</h3>
-            <ul>
-                <li>Así se hace un kebab</li>
-                <li>Chuletón de gallina chueca</li>
-                <li>Dustiiin Dustinnnn</li>
-                <li>El Power Ranger drogadicto</li>
-                <li>Hamburguesa de dinosaurio</li>
-                <li>Kim Jong Un y la comida</li>
-                <li>Zoomies</li>
-            </ul>
-
-            <p>Renuncia de Copyright bajo la sección 107 del acta de Copyright de 1976, que permite el uso bajo términos de "uso justo", para propósitos como criticismo, comentarios, reportar noticias, investigación y medios o proyectos educativos. El uso justo es un uso permitido por el estatuto de copyright que puede permitir usos que de otra forma se considerarían infracciones. Un uso no educativo, educacional, o personal sirve para favorecer un balance positivo al uso justo.</p>
-
-            <p>All videos belong to their respective owners.
-                Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.</p>
         ]]>
     </string>
 </resources>
